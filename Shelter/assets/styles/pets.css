@@ -56,6 +56,14 @@
   font-size: 15px;
   line-height: 160%;
   color: #545454;
+  transition: color 0.5s;
+}
+.pets-menu-item:hover {
+  color: #292929;
+  transition: color 0.5s;
+}
+.pets-menu-item:active {
+  border-bottom: 3px solid #F1CDB3;
 }
 .our-pets {
   color: #292929;
