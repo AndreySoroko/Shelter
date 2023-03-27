@@ -164,6 +164,9 @@ html {
   color: #292929;
   border: none;
   transition: background-color 0.5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .not-only-button:hover {
   background: #FDDCC4;
@@ -325,6 +328,9 @@ html {
   color: #292929;
   margin-bottom: 100px;
   transition: all 0.5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .pets-button:hover {
   transition: all 0.5s ease;
