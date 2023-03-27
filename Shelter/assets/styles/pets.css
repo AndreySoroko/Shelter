@@ -97,4 +97,46 @@
   row-gap: 30px;
 }
 .navigation-container {
+  padding-top: 15px;
+  display: flex;
+  gap: 20px;
+}
+.navigation-button {
+  width: 52px;
+  height: 52px;
+  border-radius: 100px;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.06em;
+}
+.inactive {
+  border: 2px solid #CDCDCD;
+  color: #CDCDCD;
+  transition: background-color 0.5s ease, border-color 0.5s ease;
+}
+.current {
+  background-color: #F1CDB3;
+  transition: background-color 0.5s ease;
+}
+.current:hover {
+  background-color: #FDDCC4;
+  transition: background-color 0.5s ease;
+  cursor: pointer;
+}
+.active {
+  border: 2px solid #F1CDB3;
+  color: #292929;
+  transition: background-color 0.5s ease, border-color 0.5s ease;
+}
+.active:hover {
+  background-color: #FDDCC4;
+  border: 2px solid #FDDCC4;
+  transition: background-color 0.5s ease, border-color 0.5s ease;
+  cursor: pointer;
 }
